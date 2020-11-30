@@ -3,6 +3,7 @@ import './App.css';
 import DisplayCounter from './components/DisplayCounter';
 import { connect } from 'react-redux'
 import IncrementDecrementCounter from './components/IncrementDecrementCounter';
+import AddSubtractCounter from './components/AddSubtractCounter';
 
 function App(props) {
   return (
@@ -11,6 +12,7 @@ function App(props) {
       <h2>{props.cntr}</h2>
       <DisplayCounter />
       <IncrementDecrementCounter />
+      <AddSubtractCounter />
     </div>
     
   );
